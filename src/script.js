@@ -49,3 +49,17 @@ $(".next").click(function(){
         duration: 500
         });
         });
+
+        const buttonsContainer = document.querySelector('.buttons');
+        buttonsContainer.addEventListener('click', function (event) {
+            if (event.target.tagName === 'INPUT') {
+                event.target.focus();
+                console.log("clicked")
+            }
+        });
+        
+        buttonsContainer.addEventListener('touchstart', function (event) {
+            if (event.target.tagName === 'INPUT') {
+                event.target.focus();
+            }
+        });
