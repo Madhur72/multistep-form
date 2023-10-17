@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <form id="msform">
+          <fieldset>
+            <div class="number-container">
+              <h5>Tell us about your dream home</h5>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="120"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 0%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b
+                    >Which type of property <br />
+                    are you looking for?</b
+                  >
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input required type="button" value="HDB" />
+                <input required type="button" value="Condo" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>1</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="8.33"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 8.33%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  Town(s) you want to move <br />
+                  to:
+                </h2>
+                <p>*Required question</p>
+              </div>
+              <select class="form-select" name="town" id="town">
+                <option value="Admiralty">Admiralty</option>
+                <option value="Bedok">Bedok</option>
+                <option value="Bedok">Bedok</option>
+                <option value="java">Boon lay</option>
+              </select>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>2</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="16.67"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 16.67%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  Which rental type are <br />
+                  you looking for?
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="Room rental" />
+                <input type="button" value="Whole unit rental" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>3</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 25%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Please specify the <br />
+                    number of rooms <br />
+                    required:
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="1 Room" />
+                <input type="button" value="2 Rooms" />
+                <input type="button" value="3 Rooms" />
+                <input type="button" value="4+ Rooms" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>4</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="33.33"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 33.33%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    How long do you plan <br />
+                    to rent the place?
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="6 months" />
+                <input type="button" value="1 year" />
+                <input type="button" value="1-2 years" />
+                <input type="button" value="More than 2 years" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>5</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="41.67"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 41.67%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    What is your total <br />
+                    budget per month?
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">S$</label>
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>6</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 50%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    When do you wish to <br />
+                    move in?
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="As soon as possible" />
+                <input type="button" value="Within the next 3 months" />
+                <input type="button" value="Within the next 6 months" />
+                <input type="button" value="Between 6 to 12 months" />
+                <input type="button" value="I've no specific timeline" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>7</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="58.33"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 58.33%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Please indicate if you <br />
+                    have any other <br />
+                    requirements below:
+                  </b>
+                </h2>
+                <p>Optional question</p>
+              </div>
+
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Requirements"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Requirements</label>
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>8</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="66.67"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 66.67%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Number of occupants <br />
+                    renting the place, <br />
+                    including yourself:
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="1" />
+                <input type="button" value="2" />
+                <input type="button" value="3" />
+                <input type="button" value="4" />
+                <input type="button" value="5" />
+                <input type="button" value="6" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>9</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 75%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Gender of <br />
+                    occupant(s):
+                  </b>
+                </h2>
+                <p>*Required question</p>
+              </div>
+
+              <div class="buttons">
+                <input type="button" value="Male" />
+                <input type="button" value="Female" />
+                <input type="button" value="Mix of both genders" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>10</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="83.33"
+              aria-valuemin="0"
+              aria-valuemax="120"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 83.33%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Please indicate the <br />
+                    nationality of <br />
+                    occupant(s)?
+                  </b>
+                </h2>
+                <p>You may select up to 6 options</p>
+                <p>*Required question</p>
+              </div>
+
+              <select class="form-select" name="country" id="country">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iran">Iran</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Israel">Israel</option>
+                <option value="Japan">Japan</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Laos">Laos</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="Myanmar (Burma)">Myanmar (Burma)</option>
+                <option value="Nepal">Nepal</option>
+                <option value="North Korea">North Korea</option>
+                <option value="Oman">Oman</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Palestine">Palestine</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Syria">Syria</option>
+                <option value="Tajikistan">Tajikistan</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Timor-Leste">Timor-Leste</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Turkmenistan">Turkmenistan</option>
+                <option value="United Arab Emirates">
+                  United Arab Emirates
+                </option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Yemen">Yemen</option>
+              </select>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>11</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="91.67"
+              aria-valuemin="0"
+              aria-valuemax="120"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 91.67%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Which type of work <br />
+                    pass do you hold?
+                  </b>
+                </h2>
+                <p>You may select more than 1 option</p>
+                <p>*Required question</p>
+              </div>
+              <div class="radios">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Employment Pass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    S Pass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Work Permit Holder
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Student Pass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Dependent Pass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Long-term Social Visit Pass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    None of the above
+                  </label>
+                </div>
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+          <fieldset>
+            <div class="number-container">
+              <p style="font-size: 17px">
+                Question <br />
+                <b>12</b> of 12
+              </p>
+            </div>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="height: 9px"
+            >
+              <div class="progress-bar bg-danger" style="width: 100%"></div>
+            </div>
+            <div class="question-container">
+              <div>
+                <h2>
+                  <b>
+                    Just one step away to <br />
+                    get your preferences <br />
+                    matched!
+                  </b>
+                </h2>
+                <p>
+                  Drop us your contact details and we will keep <br />
+                  you updated via Whatsapp on any listings <br />
+                  that match your preferences!
+                </p>
+              </div>
+              <div class="textfields">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Comments</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea"
+                  ></textarea>
+                  <label for="floatingTextarea">Phone number</label>
+                </div>
+              </div>
+            </div>
+            <input
+              type="button"
+              name="next"
+              class="next action-button"
+              value="Next"
+            />
+            <input
+              type="button"
+              name="previous"
+              class="previous action-button-previous"
+              value="Previous"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
